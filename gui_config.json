@@ -1,0 +1,7 @@
+{
+  "ragflow_url": "http://localhost:9380",
+  "ragflow_api_key": "ragflow-om0edpurycQmm8HFyO73hJtp5qTbhdewc9nnrVsb-lw",
+  "llm_model": "glm-4.5",
+  "top_k": 10,
+  "similarity_threshold": 0.12678571428571428
+}

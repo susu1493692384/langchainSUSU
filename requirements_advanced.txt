@@ -1,0 +1,75 @@
+# LangChain 进阶学习依赖包
+# 基础LangChain包
+langchain>=0.1.0
+langchain-openai>=0.1.0
+langchain-community>=0.0.20
+
+# OpenAI和AI模型
+openai>=1.0.0
+tiktoken>=0.5.0
+
+# 数据处理和存储
+numpy>=1.24.0
+pandas>=2.0.0
+faiss-cpu>=1.7.0  # 或 faiss-gpu 如果有GPU支持
+chromadb>=0.4.0
+
+# Web框架和API
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+python-multipart>=0.0.6
+
+# Redis和缓存
+redis>=5.0.0
+aioredis>=2.0.0
+
+# 数据库连接
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0  # PostgreSQL
+pymongo>=4.5.0  # MongoDB
+
+# 配置和环境
+python-dotenv>=1.0.0
+pyyaml>=6.0.0
+
+# 异步支持
+aiohttp>=3.9.0
+aiofiles>=23.2.0
+
+# 监控和日志
+structlog>=23.1.0
+prometheus-client>=0.18.0
+
+# 评估和测试
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+httpx>=0.25.0  # 用于测试FastAPI
+
+# 开发工具
+black>=23.0.0  # 代码格式化
+flake8>=6.0.0  # 代码检查
+mypy>=1.6.0  # 类型检查
+
+# 文档生成
+mkdocs>=1.5.0
+mkdocs-material>=9.4.0
+
+# 部署和容器化
+docker>=6.0.0  # Docker Python SDK
+kubernetes>=27.0.0  # Kubernetes Python客户端
+
+# 可选：如果需要特定的向量数据库
+# pinecone-client>=2.2.0
+# weaviate-client>=3.24.0
+# qdrant-client>=1.6.0
+
+# 可选：如果需要云服务集成
+# boto3>=1.28.0  # AWS
+# azure-storage-blob>=12.17.0  # Azure
+# google-cloud-storage>=2.10.0  # Google Cloud
+
+# 可选：如果需要机器学习功能
+# scikit-learn>=1.3.0
+# transformers>=4.34.0
+# torch>=2.1.0

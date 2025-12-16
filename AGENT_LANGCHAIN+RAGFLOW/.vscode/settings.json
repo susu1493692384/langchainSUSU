@@ -1,0 +1,11 @@
+{
+    "python.analysis.extraPaths": [
+        "../RAGFLOW+LANGCHAIN"
+    ],
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none"
+    },
+    "python.linting.pylintArgs": [
+        "--init-hook='import sys; sys.path.append(\"../RAGFLOW+LANGCHAIN\")'"
+    ]
+}

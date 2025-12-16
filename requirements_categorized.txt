@@ -1,0 +1,142 @@
+# LangChain项目环境依赖文件
+# 按核心功能分类，方便理解和维护
+# 生成时间: 2025-11-28
+
+# ================================
+# 🔥 核心框架 (Core Framework)
+# ================================
+langchain==1.1.0
+langchain-core==1.1.0
+langchain-openai==1.1.0
+langchain-community==0.4.1
+langchain-classic==1.0.0
+langchain-text-splitters==1.0.0
+
+# ================================
+# 📊 LangGraph生态系统 (LangGraph Ecosystem)
+# ================================
+langgraph==1.0.4
+langgraph-checkpoint==3.0.1
+langgraph-prebuilt==1.0.5
+langgraph-sdk==0.2.10
+
+# ================================
+# 🤖 AI模型支持 (AI Model Support)
+# ================================
+openai==2.8.1
+tiktoken==0.12.0
+
+# ================================
+# 📡 网络和HTTP (Network & HTTP)
+# ================================
+requests==2.32.5
+requests-toolbelt==1.0.0
+httpx==0.28.1
+httpcore==1.0.9
+httpx-sse==0.4.3
+aiohttp==3.13.2
+urllib3==2.5.0
+certifi==2025.11.12
+
+# ================================
+# 🔐 数据验证和配置 (Data Validation & Config)
+# ================================
+pydantic==2.12.5
+pydantic-core==2.41.5
+pydantic-settings==2.12.0
+marshmallow==3.26.1
+python-dotenv==1.2.1
+
+# ================================
+# 📄 数据处理和序列化 (Data Processing & Serialization)
+# ================================
+numpy==2.3.5
+PyYAML==6.0.3
+orjson==3.11.4
+ormsgpack==1.12.0
+jsonpatch==1.33
+jsonpointer==3.0.0
+
+# ================================
+# 🗄️ 数据库和存储 (Database & Storage)
+# ================================
+SQLAlchemy==2.0.44
+
+# ================================
+# 🛠️ 工具和实用库 (Utilities & Tools)
+# ================================
+tqdm==4.67.1
+colorama==0.4.6
+tenacity==9.1.2
+packaging==24.2
+
+# ================================
+# 🔧 类型系统 (Type System)
+# ================================
+typing_extensions==4.15.0
+typing-inspect==0.9.0
+typing-inspection==0.4.2
+types-requests==2.32.4.20250913
+
+# ================================
+# 🚀 异步和性能 (Async & Performance)
+# ================================
+anyio==4.11.0
+sniffio==1.3.1
+greenlet==3.2.4
+
+# ================================
+# 🧼 字符串和文本处理 (String & Text Processing)
+# ================================
+charset-normalizer==3.4.4
+regex==2025.11.3
+idna==3.11
+
+# ================================
+# 🔧 系统和底层库 (System & Low-level)
+# ================================
+attrs==25.4.0
+annotated-types==0.7.0
+dataclasses-json==0.6.7
+distro==1.9.0
+xxhash==3.6.0
+zstandard==0.25.0
+propcache==0.4.1
+
+# ================================
+# 🌐 异步HTTP相关 (Async HTTP Related)
+# ================================
+aiohappyeyeballs==2.6.1
+aiosignal==1.4.0
+frozenlist==1.8.0
+multidict==6.7.0
+yarl==1.22.0
+h11==0.16.0
+jiter==0.12.0
+
+# ================================
+# 📚 LangChain生态 (LangChain Ecosystem)
+# ================================
+langchainhub==0.1.21
+langsmith==0.4.49
+
+# ================================
+# 🔧 开发工具 (Development Tools)
+# ================================
+mypy_extensions==1.1.0
+
+# ================================
+# 📋 使用说明 (Usage Instructions)
+# ================================
+
+# 安装所有依赖:
+# pip install -r requirements_categorized.txt
+
+# 按分类安装:
+# pip install langchain langchain-core langchain-openai python-dotenv
+
+# 开发环境完整安装:
+# pip install -r requirements_categorized.txt
+
+# 生产环境最小安装:
+# pip install langchain langchain-core langchain-openai pydantic python-dotenv requests
